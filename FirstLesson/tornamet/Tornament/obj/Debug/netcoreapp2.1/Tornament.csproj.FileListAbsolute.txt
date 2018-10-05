@@ -1,0 +1,10 @@
+/Users/leon/Projects/Tornament/Tornament/bin/Debug/netcoreapp2.1/Tornament.deps.json
+/Users/leon/Projects/Tornament/Tornament/bin/Debug/netcoreapp2.1/Tornament.runtimeconfig.json
+/Users/leon/Projects/Tornament/Tornament/bin/Debug/netcoreapp2.1/Tornament.runtimeconfig.dev.json
+/Users/leon/Projects/Tornament/Tornament/bin/Debug/netcoreapp2.1/Tornament.dll
+/Users/leon/Projects/Tornament/Tornament/bin/Debug/netcoreapp2.1/Tornament.pdb
+/Users/leon/Projects/Tornament/Tornament/obj/Debug/netcoreapp2.1/Tornament.csproj.CoreCompileInputs.cache
+/Users/leon/Projects/Tornament/Tornament/obj/Debug/netcoreapp2.1/Tornament.AssemblyInfoInputs.cache
+/Users/leon/Projects/Tornament/Tornament/obj/Debug/netcoreapp2.1/Tornament.AssemblyInfo.cs
+/Users/leon/Projects/Tornament/Tornament/obj/Debug/netcoreapp2.1/Tornament.dll
+/Users/leon/Projects/Tornament/Tornament/obj/Debug/netcoreapp2.1/Tornament.pdb
