@@ -5745,11 +5745,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/leon/Projects/Tornament/TornamenTests/TornamentTests.csproj",
+      "projectUniqueName": "/Users/leon/Projects/Github/FirstLesson/tornamet/TornamenTests/TornamentTests.csproj",
       "projectName": "TornamentTests",
-      "projectPath": "/Users/leon/Projects/Tornament/TornamenTests/TornamentTests.csproj",
+      "projectPath": "/Users/leon/Projects/Github/FirstLesson/tornamet/TornamenTests/TornamentTests.csproj",
       "packagesPath": "/Users/leon/.nuget/packages/",
-      "outputPath": "/Users/leon/Projects/Tornament/TornamenTests/obj",
+      "outputPath": "/Users/leon/Projects/Github/FirstLesson/tornamet/TornamenTests/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -5766,8 +5766,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "/Users/leon/Projects/Tornament/Tornament/Tornament.csproj": {
-              "projectPath": "/Users/leon/Projects/Tornament/Tornament/Tornament.csproj"
+            "/Users/leon/Projects/Github/FirstLesson/tornamet/Tornament/Tornament.csproj": {
+              "projectPath": "/Users/leon/Projects/Github/FirstLesson/tornamet/Tornament/Tornament.csproj"
             }
           }
         }

@@ -66,6 +66,7 @@ namespace Tornament
 
         public void Evaluate()
         {
+            WriteTornament();
             ParticipantsPairs = Pair(CurrentLevelWinners);
 
             CurrentLevelWinners = new string[] {};
@@ -73,7 +74,6 @@ namespace Tornament
 
         public void AddPairWinner(string PairWinner)
         {
-            //если его нет иди в попу
             if (CheckPerson(PairWinner))
             {
                 CurrentLevelWinners.Append(PairWinner);
@@ -104,8 +104,15 @@ namespace Tornament
 
         public void WriteTornament()
         {
-            string pairs = String.Join("\n", ParticipantsPairs);
-            string winners = String.Join("\n", CurrentLevelWinners);
+            string[] strPairs = new string[ParticipantsPairs.GetLength(0)];
+            for (var i = 0; i < strPairs.Length; i++) 
+            {
+                strPairs[i] = ParticipantsPairs[i, 0] + " и " + ParticipantsPairs[i, 1];
+            }
+
+
+            string pairs = "Пары:\n" + String.Join("\n",strPairs);
+            string winners = "\nПобедители этапа:\n" + String.Join("\n", CurrentLevelWinners);
             File.WriteAllText(Name, pairs +winners);
         }
     }

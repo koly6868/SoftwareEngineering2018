@@ -1,5 +1,9 @@
 ﻿<Properties StartupConfiguration="{CBE0B69D-FBE3-4E80-83CA-B4624617BBFE}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tornament/Program.cs">
+    <Files>
+      <File FileName="Tornament/Program.cs" Line="115" Column="33" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

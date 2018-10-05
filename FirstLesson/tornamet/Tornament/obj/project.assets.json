@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/leon/Projects/Tornament/Tornament/Tornament.csproj",
+      "projectUniqueName": "/Users/leon/Projects/Github/FirstLesson/tornamet/Tornament/Tornament.csproj",
       "projectName": "Tornament",
-      "projectPath": "/Users/leon/Projects/Tornament/Tornament/Tornament.csproj",
+      "projectPath": "/Users/leon/Projects/Github/FirstLesson/tornamet/Tornament/Tornament.csproj",
       "packagesPath": "/Users/leon/.nuget/packages/",
-      "outputPath": "/Users/leon/Projects/Tornament/Tornament/obj",
+      "outputPath": "/Users/leon/Projects/Github/FirstLesson/tornamet/Tornament/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
