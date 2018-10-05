@@ -10,7 +10,7 @@ using System.IO;
 //1 режим: имяТурнира Список участников
 namespace Tournir
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -57,7 +57,24 @@ namespace Tournir
             output[0] = Console.ReadLine();
             Console.WriteLine("Enter names separating with space, orr name of winner in pare");
             output[1] = Console.ReadLine();
+            if (!IsPowOfTwo(output[1].Split(' ').Length))
+            {
+                Console.WriteLine("count of names must be power of two");
+                return GetData();
+            } 
             return output;
+        }
+        public static bool IsPowOfTwo(int num)
+        {
+            if ((num < 0) || (num == 1)) return false;
+            int rem = 0;
+            while ((num !=1) && (rem == 0))
+            {
+                rem = num % 2;
+                num /= 2;
+            }
+            if ((num == 1) && (rem == 0)) return true;
+            else return false;
         }
         
     }

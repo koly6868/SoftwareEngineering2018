@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tournir", "Tournir\Tournir.csproj", "{5FE250FD-2AAC-4F80-860C-7749C41FC804}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TournirTest", "TournirTest\TournirTest.csproj", "{5FB2BA35-14D3-4C8E-B13D-F1519F565267}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5FE250FD-2AAC-4F80-860C-7749C41FC804}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FE250FD-2AAC-4F80-860C-7749C41FC804}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FE250FD-2AAC-4F80-860C-7749C41FC804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FB2BA35-14D3-4C8E-B13D-F1519F565267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB2BA35-14D3-4C8E-B13D-F1519F565267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB2BA35-14D3-4C8E-B13D-F1519F565267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB2BA35-14D3-4C8E-B13D-F1519F565267}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
