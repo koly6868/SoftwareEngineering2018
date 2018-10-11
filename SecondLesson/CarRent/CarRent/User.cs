@@ -16,12 +16,5 @@ namespace CarRent
 
         string Name { get; }
         int Id { get; }
-
-        public void RentCar(Car car,DateTimeOffset start, int ammountDays)
-        {
-            
-            
-        }
-
     }
 }

@@ -8,13 +8,16 @@ namespace CarRent
 {
     public class Inspection
     {
-        public Inspection(DateTimeOffset star, Car car)
+        public Inspection(DateTimeOffset start, Car car)
         {
-            this.star = start;
+            Start = start;
             this.car = car ?? throw new ArgumentNullException(nameof(car));
+            End = new DateTimeOffset(Start.Year, Start.Month, Start.Day + 10, 0, 0, 0,new TimeSpan());
+            
         }
-
-        public DateTimeOffset star { get; }
+       
+        public DateTimeOffset Start { get; }
+        public DateTimeOffset End { get; }
         public Car car { get; }
     }
 }

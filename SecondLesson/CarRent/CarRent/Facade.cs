@@ -17,10 +17,16 @@ namespace CarRent
 
         public List<Car> SeeFreeCars(DateTimeOffset start, DateTimeOffset end)
         {
-            List<Car> freeCars = new List<Car>();
+            List<Car> freeCars = repa.Park.Cars;
             foreach (RentContract cont in repa.Contracts)
             {
-                if ((start > cont.EndRent) && (end < cont.StartRent)) freeCars.Add(cont.car);   
+                if ((start < cont.EndRent) && (end > cont.StartRent)) freeCars.Remove(cont.car);   
+            }
+
+            List<Car> carOnInspection = repa.Park.SeeCarOnInspection(start, end);
+            foreach (Car car in carOnInspection)
+            {
+                freeCars.Remove(car);
             }
             return freeCars;
         }
@@ -28,7 +34,11 @@ namespace CarRent
         public bool RentCar(Car car, User user, DateTimeOffset startRent, DateTimeOffset endRent)
         {
             
+            if (!SeeFreeCars(startRent, endRent).Contains(car)) return false;
             repa.Contracts.Add(new RentContract(startRent, endRent, user, car));
+            car.AddCountUsed();
+            if (car.CountUsed == 10) repa.Park.GoOnInspection(car, 
+                new DateTimeOffset(startRent.Year,startRent.Month,startRent.Day + 1, 0,0,0, new TimeSpan()));
             return true;
         }
 

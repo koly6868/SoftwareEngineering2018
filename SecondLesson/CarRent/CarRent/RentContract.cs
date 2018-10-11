@@ -19,8 +19,5 @@ namespace CarRent
         public DateTimeOffset EndRent { get; }
         public User User { get;  }
         public Car car { get; }
-
-        
-
     }
 }

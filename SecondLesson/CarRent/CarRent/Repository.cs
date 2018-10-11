@@ -18,8 +18,5 @@ namespace CarRent
         public List<RentContract> Contracts { get; set; }
         public List<User> Users { get; set; }
         public Park Park { get; set; }
-
-        
-
     }
 }
